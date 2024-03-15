@@ -83,7 +83,42 @@ html, body{
 
 
 .right{
-    background-color: green;
+    /* background-color: green; */
     grid-column: 3 / 4;
     grid-row: 1/4;
+    overflow: hidden;
+    /* padding: 0px 0px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 170px;
+    
+}
+
+.right video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+    /* transform: translateY(20px); */
+}
+
+.arrow{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-color: orangered;
+    border-radius: 50%;
+    top: 42%;
+    left: 49.1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    rotate: 45degree;
+}
+
+.arrow i{
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
 }
